@@ -89,8 +89,6 @@ class App{
     constructor(){
 
         this._getPosition();
-        this._setLocalStorage();
-        this._getLocalStorage();
         this._createModal();
 
         //event listeners
@@ -98,6 +96,8 @@ class App{
         form.addEventListener('submit', this._newWorkout.bind(this))
         containerWorkouts.addEventListener('click', this._moveToMarker.bind(this))
         btnMaptyPlus.addEventListener('click', this._showModal)
+        
+        this._getLocalStorage();
     }
 
     _getPosition(){
