@@ -1,7 +1,6 @@
 # Mapty  https://ac3bk.github.io/Mapty/
-using Object Oriented Programming to create a workout logging application
-
-
+-using Object Oriented Programming to create a workout logging application
+-used localStorage to keep user data
 Mapty+ button created to add extra features down the line
 
 
