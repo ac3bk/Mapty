@@ -89,6 +89,7 @@ class App{
     constructor(){
 
         this._getPosition();
+        this._setLocalStorage();
         this._getLocalStorage();
         this._createModal();
 
