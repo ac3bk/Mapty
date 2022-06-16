@@ -1,4 +1,4 @@
-# Mapty  https://ac3bk.github.io/Mapty/
+# Mapty  https://woodshyjean.github.io/Mapty/
 -using Object Oriented Programming to create a workout logging application 
 
 
