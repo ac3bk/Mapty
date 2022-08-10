@@ -102,7 +102,7 @@ class App{
 
     _getPosition(){
         navigator.geolocation.getCurrentPosition(this._loadMap.bind(this), function(){
-            console.log( 'failed to get current position');
+            //console.log( 'failed to get current position');
         })
     }
 
@@ -127,14 +127,14 @@ class App{
     }
 
     _showForm(mapEvent){
-        console.log(mapEvent)
+        //console.log(mapEvent)
         this.#mapE = mapEvent;
         form.classList.remove('hidden');
         inputDistance.focus();
     }
 
     _toggleElevationField(e){
-        console.log(e);
+        //console.log(e);
         inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
         inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
     }
